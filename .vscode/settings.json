@@ -1,0 +1,24 @@
+{
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+    }
+  },
+  "[javascriptreact]": {
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+      }
+  },
+  "[typescript]": {
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+      },
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+      }
+  },
+}
