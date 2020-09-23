@@ -14,8 +14,8 @@ export const IconWrapper = styled.div`
   ${({ theme }) => css`
     color: ${theme.colors.white};
     cursor: pointer;
-    width: 2.4 rem;
-    height: 2.4 rem;
+    width: 2.4rem;
+    height: 2.4rem;
   `}
 `
 
@@ -36,5 +36,15 @@ export const MenuGroup = styled.div`
     > div {
       margin-left: ${theme.spacings.xsmall};
     }
+  `}
+`
+
+type MenuFullProps = {
+  isOpen: boolean
+}
+
+export const MenuFull = styled.nav<MenuFullProps>`
+  ${({ isOpen }) => css`
+    opacity: ${isOpen ? 1 : 0};
   `}
 `
